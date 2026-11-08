@@ -6,6 +6,7 @@
       :caption="figureCaption"
       :footnoteNumber="figureFootnoteNumber"
       :url="figureUrl"
+      :backgroundColor="figureBackgroundColor"
     />
   </div>
 </template>
@@ -14,6 +15,7 @@
 defineProps<{
   figureCaption?: string;
   figureFootnoteNumber?: number;
+  figureBackgroundColor?: string;
   figureUrl: string;
 }>();
 </script>

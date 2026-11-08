@@ -75,6 +75,12 @@ figureUrl: https://picsum.photos/1920/1080
 </Footnotes>
 
 ---
+layout: figure
+figureUrl: /transformer.png
+figureBackgroundColor: 'white'
+---
+
+---
 layout: figure-side
 figureCaption: Curated cover image for Slidev
 figureFootnoteNumber: 1
